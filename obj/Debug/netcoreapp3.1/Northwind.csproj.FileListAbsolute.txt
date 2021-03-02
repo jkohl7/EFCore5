@@ -33,3 +33,4 @@ D:\.Net Web\Northwind\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.
 D:\.Net Web\Northwind\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 D:\.Net Web\Northwind\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 D:\.Net Web\Northwind\obj\Debug\netcoreapp3.1\Razor\Views\Product\Category.cshtml.g.cs
+D:\.Net Web\Northwind\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs

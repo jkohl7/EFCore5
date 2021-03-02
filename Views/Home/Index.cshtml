@@ -1,31 +1,38 @@
-@using Northwind.Models
+<!DOCTYPE html>
 
-
-<div class="jumbotron my-2 border border-secondary">
-    <h2 class="display-4">Product Categories</h2>
-    @* <p class="lead">We have the best prices and selection of high quality foods &amp; beverages on the planet! Check out our featured discounts below.</p> 
-    <hr class="my-4">
-    <p>For exceptional international quisuine, look no further.</p>
-    <a class="btn btn-outline-primary btn-lg" href="#" role="button"><i class="fas fa-shopping-cart"></i> Order Now</a>
-    *@  
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <!-- bootstrap -->
+    <link href="/css/bootstrap.cerulean.min.css" rel="stylesheet" >
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <!-- client -->
+    <link rel="stylesheet" href="/css/client.css" />
+</head>
+<body>
     
-    <div class="list-group">
-        <ul>
-            <li><b>Beverages :</b> Soft drinks, coffees, teas, beers, and ales</li>
-            <li><b>Condiments :</b> Sweet and savory sauces, relishes, spreads, and seasonings</li>
-            <li><b>Confections :</b> Desserts, candies, and sweet breads</li>
-            <li><b>Dairy Products :</b> Cheeses</li>
-            <li><b>Grains/Cereals :</b> Breads, crackers, pasta, and cereal</li>
-            <li><b>Meat/Poultry  :</b> Prepared meats</li>
-            <li><b>Produce :</b> >Dried fruit and bean curd</li>
-            <li><b>Seafood :</b> Seaweed and fish</li>
-        </ul>
-    </div>
-
+<h2 class="mt-3"><i class="fas fa-list-ul"></i> Product Categories</h2>
+<div class="list-group">
+        <a class="list-group-item list-group-item-action" href="/Product/Index/1">Beverages - <i style="opacity:.6;">Soft drinks, coffees, teas, beers, and ales</i></a>
+        <a class="list-group-item list-group-item-action" href="/Product/Index/2">Condiments - <i style="opacity:.6;">Sweet and savory sauces, relishes, spreads, and seasonings</i></a>
+        <a class="list-group-item list-group-item-action" href="/Product/Index/3">Confections - <i style="opacity:.6;">Desserts, candies, and sweet breads</i></a>
+        <a class="list-group-item list-group-item-action" href="/Product/Index/4">Dairy Products - <i style="opacity:.6;">Cheeses</i></a>
+        <a class="list-group-item list-group-item-action" href="/Product/Index/5">Grains/Cereals - <i style="opacity:.6;">Breads, crackers, pasta, and cereal</i></a>
+        <a class="list-group-item list-group-item-action" href="/Product/Index/6">Meat/Poultry - <i style="opacity:.6;">Prepared meats</i></a>
+        <a class="list-group-item list-group-item-action" href="/Product/Index/7">Produce - <i style="opacity:.6;">Dried fruit and bean curd</i></a>
+        <a class="list-group-item list-group-item-action" href="/Product/Index/8">Seafood - <i style="opacity:.6;">Seaweed and fish</i></a>
 </div>
 
-
-@section scripts
-    {
-    <script src="/js/client.js"></script>
-}
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- popper & bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+</body>
+</html>
